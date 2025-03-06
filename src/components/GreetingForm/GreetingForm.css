@@ -1,0 +1,71 @@
+.greeting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #ff69b4, #ff4d4d, #800080);
+    color: white;
+    padding: 20px;
+  }
+  
+  .greeting-card {
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #ff69b4;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff69b4;
+  }
+  
+  .description {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .greeting-button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #ff69b4, #800080);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .greeting-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+  }
+  
+  .greeting-message {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+    background: #ffe4e1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff69b4;
+  }
